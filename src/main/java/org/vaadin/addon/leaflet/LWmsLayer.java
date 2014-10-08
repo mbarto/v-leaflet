@@ -48,4 +48,12 @@ public class LWmsLayer extends LTileLayer {
 	public void setVersion(String version) {
 		getState().version = version;
 	}
+	
+	public int getTimestamp() {
+            return getState().timestamp;
+        }
+    
+        public void setTimestamp(int timestamp) {
+            getState().timestamp = timestamp;
+        }
 }

@@ -32,6 +32,9 @@ public class LeafletWmsLayerConnector extends LeafletTileLayerConnector {
 		if (s.version != null) {
 			o.setVersion(s.version);
 		}
+		if(s.timestamp != null) {
+		    o.setTimestamp(s.timestamp);
+		}
 		return o;
 	}
 
